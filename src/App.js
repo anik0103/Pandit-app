@@ -1,12 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from "./logo.svg";
+import "./App.css";
+import SignIn from "./Components/Authentication/SignIn";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Monster</p>
+        <SignIn />
       </header>
     </div>
   );
